@@ -1,0 +1,153 @@
+.section-1 {
+	margin-bottom: 30px;
+}
+
+.col1 {
+	padding: 120px 30px;
+}
+.col1 p{
+	margin: 10px 0px;
+}
+
+.col1 h1 {
+	font-size: 70px;
+}
+
+.me_image {
+	display: block;
+}
+.me_image img {
+	border-radius: 25px;
+	margin-top: 20px; 
+	/*gives space on top of image margin*/
+}
+.photography-intro {
+	padding: 30px 20px;
+}
+.photography-intro {
+	text-align:  center;
+}
+
+.column {
+	position: relative;
+	height:  250 px;
+	/*the image is 400 px tall! So...*/
+	overflow:  hidden;
+	border-radius:  20px;
+	box-shadow: 0px 0px 9px 0px rgb(197, 199, 199, 1.0);
+	/*Rounded corners */
+	margin:  10px 0px;
+	/*tops+bottom L and R*/
+}
+.gallery {
+	/*gap:  20px;*/
+	justify-content: space-evenly;
+}
+/*Gap adds spaces of 20 px in between pics of gallery*/
+.gallery img {
+	display: block;
+	/*Puts the div to 100% width of its current container*/
+	width:  100%;
+	/*100% of the column*/
+	/*If you change height here it will be distored*/
+}
+
+.text {
+	position:  absolute;
+	bottom:  0;
+	width:  100%;
+	text-align: center;
+	opacity:  0;
+	/*This moves to bottom of column*/
+}
+/*text becomes outside*/
+
+.text h5 {
+	background-color: rgba(197, 197, 199, 0.9);
+	color: black;
+
+}
+
+.column:hover .text {
+	opacity: 1;
+}
+
+
+/*Different ways to hide in CSS*/
+/*display: none;
+opacity: 0;
+visibility: hidden*/
+
+/*About Page*/
+
+.about, .features {
+	margin:  30px;
+}
+
+.about .about_col_1 {
+	padding:  20px;
+}
+
+.tp-link {
+	color: var(--main-color);
+	margin-top:  5px;
+	text-decoration: None;
+	font-size: 14px;
+}
+
+.tp-link-2 {
+	color: var(--main-color);
+}
+
+/*End about page*/
+
+.at_st {
+	text-align: center;
+	margin: 30px 0px;
+	padding: 30px 20x;
+	/*Padding will help when scrunch screen horizontally*/
+}
+
+/*Features Page*/
+.wt_container {
+	width:  95%;
+	/*not matter zooming in and out*/
+	max-width: 500px;
+	height: 300px;
+	overflow:  hidden;
+	/*margin centres it*/
+}
+/*Perfect formula for accessible image*/
+
+.wt_container img{
+	width: 100%;
+	height:  100%;
+	object-fit: cover;
+	/*objec fit makes clear only works for image*/
+}
+
+.mar_aside_1 {
+	margin:  10px 0px;
+	padding: 40px 0px;
+}
+
+#sm_p {
+	color: #3a3b3c;
+	font-size: 13px;
+	margin:  10px 0px;
+}
+
+/*End features Page*/
+
+/*Start Testimonials*/
+
+.testimonials {
+	padding:  60px 20px;
+	text-align: center;
+	background-color: #e9e9e9;
+	margin:  30px 0px;
+}
+
+
+/*End testimonials*/
+
